@@ -25,18 +25,11 @@ A complete implementation of matrix multiplication:
 - Nested loops for row-column computation
 - Output formatting with spacing and newline
 
-#### 2. `mips2.asm`
-Another matrix multiplication variant (less complete):
-- Performs the computation but **does not include output logic**
-- Useful for comparing logic or testing pure arithmetic structure
-
-✅ **Recommended**: Use `arrys mult.asm` as the full version.
-
 ---
 
 ### 🔁 Bitwise Rotation
 
-#### 3. `rotator.asm`
+#### 2. `rotator.asm`
 Rotates a 32-bit word either **left or right** by a user-specified number of positions:
 - Input:
   - A 32-bit integer
@@ -50,10 +43,6 @@ Rotates a 32-bit word either **left or right** by a user-specified number of pos
 - Bitwise operations
 - Shift and combine logic
 - Conditional branching based on rotation direction
-
-#### 4. `mips12.asm`
-Duplicate of `rotator.asm` with similar logic.  
-✅ **Recommended**: Use `rotator.asm` for clarity and comments.
 
 ---
 
